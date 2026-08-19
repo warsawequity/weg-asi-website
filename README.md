@@ -93,11 +93,13 @@ Zostawione świadomie, bo to zawartość, nie infrastruktura:
 
 ## Do decyzji
 
-- **Ogłoszenie z 12.08.2026** („przyjął nową Strategię Inwestycyjną Spółki –
-  link poniżej”) nie ma pod tym zdaniem żadnego linku — pusty akapit jest tak
-  samo pusty na produkcji. Kopia odwzorowuje stan faktyczny; jeśli plik ze
-  strategią miał tam być, trzeba go dołożyć (`pliki/` + odnośnik w
-  `ogloszenia/index.html` i w katalogu wpisu).
+- **Ogłoszenie z 12.08.2026** obiecywało „link poniżej”, którego na produkcji
+  nie było. Plik `pliki/2026/08/WAS_260812_S_Strategia_inwestycyjna.pdf` został
+  dołożony w tej wersji — odnośnik jest w `ogloszenia/index.html` (sekcja
+  „Więcej”, ten sam blok `post-files` co przy pozostałych wpisach) oraz na
+  stronie wpisu. Na produkcji tego linku nadal brak; jeśli WordPress ma zostać,
+  trzeba go tam dodać osobno. Plik jest skanem bez warstwy tekstowej, więc treść
+  nie jest wyszukiwalna — jeśli istnieje wersja cyfrowa, warto ją podmienić.
 - **Fonty Neurial Grotesk** są komercyjne. W repozytorium leżą te same pliki,
   które serwuje produkcja; przy repozytorium publicznym warto sprawdzić, co
   mówi licencja.
