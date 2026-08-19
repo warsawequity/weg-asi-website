@@ -58,12 +58,15 @@ Linki wewnętrzne są relatywne i wskazują wprost na `index.html`
 
 Settings → Pages → Source: **Deploy from a branch**, gałąź `main`, katalog
 **`/ (root)`**. Plik `.nojekyll` jest już na miejscu, więc Pages nie przepuści
-plików przez Jekylla. Adres wyjdzie
-`https://warsawequity.github.io/weg-asi-website/` — i tam strona
-działa poprawnie, bo odnośniki są relatywne.
+plików przez Jekylla.
 
-Przy podpięciu własnej domeny (Settings → Pages → Custom domain) potrzebny jest
-plik `CNAME` z jej adresem; GitHub dodaje go sam po zapisaniu domeny w panelu.
+Domena własna jest ustawiona plikiem `CNAME` w katalogu głównym
+(`warsawequityasi.pl`) — Pages czyta go przy każdym wdrożeniu, więc **nie
+usuwaj tego pliku**, bo strona wróci na adres
+`https://warsawequity.github.io/weg-asi-website/`. Rekordy A domeny wskazują
+`185.199.108–111.153`, a `www` idzie za apexem przez wildcard CNAME w strefie
+home.pl. Po wystawieniu certyfikatu warto włączyć **Enforce HTTPS**
+w Settings → Pages.
 
 ## Czego nie przeniesiono i dlaczego
 
